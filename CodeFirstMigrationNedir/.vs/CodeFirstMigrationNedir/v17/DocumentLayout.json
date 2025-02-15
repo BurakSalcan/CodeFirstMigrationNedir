@@ -3,34 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\views\\etkinlik\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\views\\etkinlik\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\models\\etkinlikarsivmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\controllers\\etkinlikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\controllers\\etkinlikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\assets\\css\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\assets\\css\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\codefirstmigrationnedir\\models\\etkinlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\models\\etkinlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\views\\etkinlik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\views\\etkinlik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\codefirstmigrationnedir\\models\\etkinlikarsivmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\models\\etkinlikarsivmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\models\\soru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\models\\soru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\models\\etkinlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\models\\etkinlik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|c:\\users\\burak\\source\\repos\\codefirstmigrationnedir\\codefirstmigrationnedir\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C83DC5-C0D1-4696-9506-E11CFCB25C77}|CodeFirstMigrationNedir\\CodeFirstMigrationNedir.csproj|solutionrelative:codefirstmigrationnedir\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
+          "DockedWidth": 187,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MainLayout.css",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Assets\\css\\MainLayout.css",
+              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Assets\\css\\MainLayout.css",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Assets\\css\\MainLayout.css",
+              "RelativeToolTip": "CodeFirstMigrationNedir\\Assets\\css\\MainLayout.css",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-15T13:16:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Migrations\\Configuration.cs",
@@ -43,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "EtkinlikArsivModel.cs",
               "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Models\\EtkinlikArsivModel.cs",
               "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Models\\EtkinlikArsivModel.cs",
@@ -56,28 +85,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Etkinlik.cs",
               "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Models\\Etkinlik.cs",
               "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Models\\Etkinlik.cs",
               "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Models\\Etkinlik.cs",
               "RelativeToolTip": "CodeFirstMigrationNedir\\Models\\Etkinlik.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T13:55:57.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Etkinlik\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Views\\Etkinlik\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Etkinlik\\Ekle.cshtml",
+              "RelativeToolTip": "CodeFirstMigrationNedir\\Views\\Etkinlik\\Ekle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T13:41:38.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Etkinlik\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Views\\Etkinlik\\Index.cshtml",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Etkinlik\\Index.cshtml",
+              "RelativeToolTip": "CodeFirstMigrationNedir\\Views\\Etkinlik\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T13:23:39.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "CodeFirstMigrationNedir\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T13:13:24.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Soru.cs",
-              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Models\\Soru.cs",
-              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Models\\Soru.cs",
-              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Models\\Soru.cs",
-              "RelativeToolTip": "CodeFirstMigrationNedir\\Models\\Soru.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Title": "EtkinlikController.cs",
+              "DocumentMoniker": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Controllers\\EtkinlikController.cs",
+              "RelativeDocumentMoniker": "CodeFirstMigrationNedir\\Controllers\\EtkinlikController.cs",
+              "ToolTip": "C:\\Users\\burak\\source\\repos\\CodeFirstMigrationNedir\\CodeFirstMigrationNedir\\Controllers\\EtkinlikController.cs",
+              "RelativeToolTip": "CodeFirstMigrationNedir\\Controllers\\EtkinlikController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwC4AAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T14:31:22.88Z",
+              "WhenOpened": "2025-02-15T13:09:13.714Z",
               "EditorCaption": ""
             }
           ]

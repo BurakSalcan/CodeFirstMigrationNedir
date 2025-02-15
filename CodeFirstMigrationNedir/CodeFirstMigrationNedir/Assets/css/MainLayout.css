@@ -1,0 +1,86 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:Calibri;
+}
+
+.menu{
+    padding:10px;
+    background-color:deeppink;
+    color:white;
+}
+
+.solmenu{
+    
+    float:left;
+    width:200px;
+    background-color:#fce7f2;
+    min-height:1000px;
+}
+
+    .solmenu a {
+        display: block;
+        text-decoration: none;
+        margin: 10px;
+        border-bottom:1px solid silver;
+    }
+
+.icerikTasiyici{
+    float:left;
+    width:1000px;
+    padding:10px;
+}
+
+.formTasiyici{
+
+}
+
+.formBaslik{
+    background-color:aliceblue;
+    border:1px solid silver;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.formIcerik {
+    border: 1px solid silver;
+    padding: 10px;
+}
+
+.satir {
+    padding: 10px;
+}
+
+.metinKutu{
+    width:90%;
+    font-size:12pt;
+    padding:5px;
+    border:1px solid silver;
+    border-radius:5px;
+}
+
+.metinKutuZorunlu {
+    width: 90%;
+    font-size: 12pt;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.ekleButton{
+    border:1px solid deeppink;
+    border-radius:5px;
+    cursor:pointer; /*Mouse üstüne geldiği zaman ikonunu parmak işareti yapıyor.*/
+    padding:10px 20px;
+    background-color:#389c36;
+    color:white;
+
+}
+
+.hataMesaj{
+    display:block;
+    color:red;
+}

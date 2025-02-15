@@ -10,11 +10,14 @@ namespace CodeFirstMigrationNedir.Models
     {
         public int ID { get; set; }
 
-        [Required]
-        [StringLength(maximumLength:50)]
+        [Required(ErrorMessage = "Bu alan zorunludur.")]
+        [StringLength(maximumLength:50, ErrorMessage = "Etkinlik adı en fazla 50 karakter olmalıdır.")]
         public string Isim { get; set; }
 
+        [DataType(DataType.Date)]
+
         public DateTime Tarih { get; set; }
+
         [StringLength(maximumLength: 50)]
         public string Resim { get; set; }
 
