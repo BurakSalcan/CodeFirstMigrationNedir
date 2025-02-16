@@ -1,8 +1,43 @@
-﻿
+﻿@using CodeFirstMigrationNedir.Models
+@model ICollection<Etkinlik>  
+    @*1. yöntem*@
+
+@*@model ICollection<CodeFirstMigrationNedir.Models.Etkinlik>*@ 
+    @*2. yöntem*@
+
+@*Bunları bu iki yöntemle yazabiliriz. İkisi de aynı, tamamen tercih meselesi*@
+
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Etkinlikler</h2>
+<hr />
+<table width="100%" cellspacing="0" class="tablo">
+    <tr>
+        <th>Resim</th>
+        <th>ID</th>
+        <th>Isim</th>
+        <th>Tarih</th>
+        <th>Durum</th>
+        <th>Seçenekler</th>
+    </tr>
+    @foreach (Etkinlik item in Model)
+    {
+        <tr>
+            <td>
+                <img src="~/Assets/etkinlikResimleri/@item.Resim" width="150" />
+            </td>
+            <td>@item.ID</td>
+            <td>@item.Isim</td>
+            <td>@item.Tarih.ToShortDateString()</td>
+            <td>@item.Durum</td>
+            <td align="center">
+                <a href="@Url.Action("Duzenle","Etkinlik", new {id = @item.ID})" class="tablobutonu duzenle">Düzenle</a>
+                <a href="@Url.Action("Sil","Etkinlik")" class="tablobutonu sil">Sil</a>
+            </td>
+        </tr>
+    }
+</table>
 

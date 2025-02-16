@@ -84,3 +84,31 @@ body {
     display:block;
     color:red;
 }
+
+.tablo{
+    text-align:center;
+}
+
+    .tablo tr th {
+        border: 1px solid silver;
+        background-color:#efefef;
+        padding:10px;
+    }
+
+    .tablo tr td {
+        border: 1px solid silver;
+        padding:5px;
+    }
+
+    .tablo .tablobutonu{
+        border-radius:3px;
+        padding:5px;
+        color:white;
+        text-decoration:none;
+    }
+    .duzenle{
+        background-color:deeppink;
+    }
+    .sil{
+        background-color:darkred;
+    }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Web;
 using System.Web.Mvc;
 
@@ -14,7 +15,7 @@ namespace CodeFirstMigrationNedir.Controllers
         // GET: Etkinlik
         public ActionResult Index()
         {
-            return View();
+            return View(db.Etkinlikler.ToList());
         }
 
         [HttpGet]
@@ -54,6 +55,44 @@ namespace CodeFirstMigrationNedir.Controllers
                 }
             }
 
+            return View(model);
+        }
+
+        [HttpGet]
+
+        public ActionResult Duzenle(int? id)
+        {
+            if (id != null)
+            {
+                Etkinlik model = db.Etkinlikler.Find(id);
+                if (model != null)
+                {
+                    return View(model);
+                }
+            }
+            return RedirectToAction("Index", "Etkinlik");
+        }
+
+        [HttpPost]
+
+        public ActionResult Duzenle(Etkinlik model, HttpPostedFileBase dosyaResim)
+        {
+            if (ModelState.IsValid)
+            {
+                if (dosyaResim != null)
+                {
+                    FileInfo fi = new FileInfo(dosyaResim.FileName);
+                    if (fi.Extension == ".jpg" || fi.Extension == ".png" || fi.Extension == ".jpeg")
+                    {
+                        string isim = Guid.NewGuid().ToString() + fi.Extension;
+                        model.Resim = isim;
+                        dosyaResim.SaveAs(Server.MapPath("~/Assets/etkinlikResimleri/" + isim));
+                    }
+
+                }
+                db.Entry(model).State = System.Data.Entity.EntityState.Modified;
+                db.SaveChanges();
+            }
             return View(model);
         }
     }
